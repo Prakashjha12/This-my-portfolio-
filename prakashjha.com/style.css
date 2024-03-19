@@ -462,6 +462,177 @@ color: #95c11e;
     line-height: 20px;
     margin-bottom: 8px;
   }
-  @media screen {
+  
+@media screen and (max-width: 768px) {
+    #nav {
+        display: none;
+    }
+
+
+    #main {
+        padding-top: 100px;
+    }
+
+    #page1 h1 {
+        font-size: 5rem;
+    }
+
+    #page1 h2 {
+        font-size: 1.5rem;
     
-  }
+    }
+
+    #page1 p {
+        font-size: 1rem;
+        width: 80%;
+        margin: auto;
+    }
+
+    #arrow {
+       display: none !important;
+    }
+
+    #arrow i {
+        font-size: 3rem;
+    }
+
+    #scroller {
+        height: auto;
+        padding: 20px;
+    }
+
+    #scroller-in {
+        animation-duration: 60s;
+    }
+
+    #scroller h4 {
+        font-size: 2.5rem;
+    }
+
+    #about-me {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    #about-me img {
+        width: 70%;
+        height: auto;
+    }
+
+    #about-me-in {
+        width: 100%;
+        text-align: center;
+    }
+
+    #about-me-in h3 {
+        font-size: 2rem;
+    }
+
+    #about-me-in p {
+        font-size: 1rem;
+    }
+
+    #cards-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .overlay {
+        padding: 20px;
+        padding-top: 80px;
+    }
+
+    .overlay h4 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .overlay p {
+        font-size: 0.8rem;
+    }
+
+    #green-div {
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    #green-div h4 {
+        width: 90%;
+        font-size: 1.2rem;
+        margin-top: -100px;
+        backdrop-filter: sepia(90%) opacity(120%) blur(10px);
+        border-radius: 50px;
+
+    }
+
+    #green-div img {
+        width: 80%;
+        height: auto;
+    }
+
+    #page3 {
+        padding: 10px;
+    }
+
+    #page3>p {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    #page3 img {
+        height: 30px;
+    }
+
+    #page4 {
+        padding: 10px;
+    }
+    #page4 h1{
+        font-size: 40px;
+        padding-left: 40px;
+    }
+
+    .elem {
+        width: 45%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .elem h2 {
+        font-size: 1.5rem;
+    }
+
+    #footer {
+        margin-bottom: -20px;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #footer>img {
+        height: auto;
+        width: 90%;
+    }
+
+    #f1 img {
+        width: 70px;
+    }
+
+    #f2 h3,
+    #f3 h3 {
+        margin-top: -40px;
+        font-size: 1.2rem;
+    }
+
+    #f4 h4 {
+        font-size: 0.7rem;
+    }
+}
+    
