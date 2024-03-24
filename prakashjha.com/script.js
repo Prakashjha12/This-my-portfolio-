@@ -25,7 +25,7 @@ var h4all= document.querySelectorAll("#nav h4")
 gsap.to("#nav", {
     backgroundColor: "#000",
     height:"130px",
-    duration:0.5,
+    duration:0.3,
     scrollTrigger:{
         trigger:"#nav",
         scroller:"body",
