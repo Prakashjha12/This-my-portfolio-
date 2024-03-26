@@ -41,7 +41,7 @@ html, body{
     gap: 100px;
     z-index: 99;
     /* position: relative; */
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 #nav img{
@@ -145,6 +145,8 @@ video{
 
 }
 #scroller{
+    margin-bottom: 130px;
+
     /* background-color: red; */
     white-space: nowrap;
     overflow-x: auto;
@@ -197,7 +199,7 @@ color: #95c11e;
 
 
 #about-me{
-    height: 40vh;
+    height: 52vh;
     width: 100%;
     display: flex;
     padding: 0 50px;
@@ -482,52 +484,7 @@ color: #95c11e;
     line-height: 20px;
     margin-bottom: 8px;
   }
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'montserrat';
-    color: #fff;
-}
-
-html, body {
-    height: 100vh;
-    width: 100%;
-}
-
-#cursor {
-    display: none; /* Hide cursor on mobile devices */
-}
-
-#cursor-blur {
-    display: none; /* Hide cursor-blur on mobile devices */
-}
-
-#nav {
-    display: none; /* Hide navigation on mobile devices */
-}
-
-@media screen and (min-width: 501px) {
-    #nav {
-        display: flex; /* Show navigation on screens wider than 500px */
-    }
-}
-
-@media screen and (max-width: 500px) {
-    #cursor {
-        display: block; /* Show cursor on screens up to 500px */
-        /* Add styling for mobile cursor here */
-    }
-
-    #cursor-blur {
-        display: block; /* Show cursor-blur on screens up to 500px */
-        /* Add styling for mobile cursor-blur here */
-    }
-
-    #nav {
-        display: none; /* Hide navigation on screens up to 500px */
-    }
-}
+  
   
 @media screen and (max-width: 500px) {
     #nav {
