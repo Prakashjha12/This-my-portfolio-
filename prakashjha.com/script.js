@@ -47,7 +47,10 @@ gsap.to("#main",{
         end:"top -70%",
         scrub:"2",
     }
+    
 })
+
+
 gsap.from("#about-me img,#about-me-in",{
     y:50,
     opacity:0,
